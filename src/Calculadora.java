@@ -26,9 +26,9 @@ public class Calculadora {
             case "+" -> num1 + num2;
             case "-" -> num1 - num2;
             case "*" -> num1 * num2;
-            case "/" -> num2!=0 ? (double) num1/ num2: Double.NaN;
+            case "/" -> num1/ num2;
             case "^" -> Math.pow(num1,num2);
-            case "%" -> num2 != 0 ? num1 % num2 : Double.NaN;
+            case "%" -> num1 % num2;
             default -> {
                 System.out.println("el operador ingresado no es valido");
                 yield Double.NaN;
