@@ -15,7 +15,7 @@ public class AdivinaElNumero {
             boolean correcto = false;
             Random numAle = new Random();
             num=numAle.nextInt(max - min + 1) + min;
-            System.out.println(num);
+
 
             for (int i=0 ;i<intentos;){
                 System.out.println("escribe un numero entre 1 y 50");
